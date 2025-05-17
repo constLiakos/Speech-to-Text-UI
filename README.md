@@ -51,6 +51,17 @@ Speech to Text UI is a simple graphical user interface for recording audio, tran
 - Transcriptions will be displayed in the text area upon completion.
 - Use the copy button to copy the latest transcription.
 
+![Configuration](docs/demo-02.png)
+
+## Info 
+
+### API Base URLs
+
+| Provider | API URL | Model Names |
+| -------- | ------- | ------------|
+| OpenAI | https://api.openai.com/v1/audio/transcriptions | whisper-1 |
+| Groq   | https://api.groq.com/openai/v1/audio/transcriptions | whisper-large-v3, whisper-large-v3-turbo, distil-whisper-large-v3-en |
+
 ## License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.

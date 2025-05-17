@@ -1,0 +1,6 @@
+sounddevice>=0.4.7
+wavio>=0.0.4
+requests>=2.25.0
+numpy>=2.2.5
+pillow>=10.4.0
+tk>=0.1.0
